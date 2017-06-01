@@ -10,15 +10,20 @@ public class PlayerScript : MonoBehaviour {
 	private Rigidbody2D rigidbody2D;
 	private Animator anim;
 
+	private Vector3 firstCameraPos = Vector3.zero;
+
 	void Start () {
 		anim = GetComponent<Animator>();
 		rigidbody2D = GetComponent<Rigidbody2D>();
+
+		firstCameraPos = Camera.main.transform.position;
 	}
 
 	void FixedUpdate ()
 	{
 		float x = Input.GetAxisRaw ("Horizontal");
-		if (x != 0) {
+		if (x != 0)
+		{
 			rigidbody2D.velocity = new Vector2 (x * speed, rigidbody2D.velocity.y);
 			Vector2 temp = transform.localScale;
 			temp.x = x;
@@ -26,11 +31,15 @@ public class PlayerScript : MonoBehaviour {
 			anim.SetBool ("Dash", true);
 			//********** 開始 **********//
 			//画面中央から左に4移動した位置をユニティちゃんが超えたら
-			if (transform.position.x > mainCamera.transform.position.x - 4) {
+//			if (transform.position.x > mainCamera.transform.position.x - 4) {
+			// Unityちゃんが真ん中に来たら
+			// if (transform.position.x > mainCamera.transform.position.x)
+			{
 				//カメラの位置を取得
 				Vector3 cameraPos = mainCamera.transform.position;
 				//ユニティちゃんの位置から右に4移動した位置を画面中央にする
-				cameraPos.x = transform.position.x + 4;
+				cameraPos.x = transform.position.x;// + -4;
+				if (cameraPos.x < firstCameraPos.x) cameraPos.x = firstCameraPos.x;
 				mainCamera.transform.position = cameraPos;
 			}
 			//カメラ表示領域の左下をワールド座標に変換

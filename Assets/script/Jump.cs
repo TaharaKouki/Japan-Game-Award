@@ -7,12 +7,15 @@ public class Jump : MonoBehaviour {
 	public float jumpHeight;
 	public Rigidbody2D rb;
 	private bool canJunp = true;
+	private Animator anim;
+
+
 
 	// Use this for initialization
-//	void Start () 
-//	{
-//		rb = GetComponent<Rigidbody>();
-//	}
+	void Start () 
+	{
+		anim = GetComponent<Animator>();
+	}
 	
 	// Update is called once per frame
 
@@ -31,9 +34,11 @@ public class Jump : MonoBehaviour {
 		
 //	}
 	void OnCollisionStay2D(Collision2D hit){
+		anim.SetBool ("Push_button", false); 
 		if (Input.GetKeyDown("space") && canJunp) {
 			// Spaceが押され続けてる！
 			Debug.Log(Vector3.up * jumpHeight);
+			anim.SetBool ("Push_button", true); 
 			rb.AddForce(Vector3.up * 1000.0f * jumpHeight);
 			canJunp = false;
 		}
@@ -42,3 +47,4 @@ public class Jump : MonoBehaviour {
 		canJunp = true;
 	}
 }
+	

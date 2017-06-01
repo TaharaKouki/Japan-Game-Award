@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</ProjectGuid>
+    <ProjectGuid>{F9A1A936-BF13-0B35-87CE-A14B6DE29743}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,9 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\GetItem.cs" />
+     <Compile Include="Assets\script\Jump.cs" />
      <Compile Include="Assets\script\PlayerScript.cs" />
      <Compile Include="Assets\script\playermove.cs" />
-     <None Include="Assets\ユニティちゃんドット絵素材（Co89）\Readme.txt" />
+     <None Include="Assets\Sprite\ユニティちゃんドット絵素材（Co89）\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

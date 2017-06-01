@@ -461,8 +461,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: 830f9833-a1a9-46de-996b-69152522d7a3
+  projectName: New Unity Project 1
+  organizationId: rainaf
   cloudEnabled: 0
