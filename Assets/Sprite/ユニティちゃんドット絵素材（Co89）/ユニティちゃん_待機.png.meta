@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 6463e6e1f8ff9694e8495af8344c1f88
-timeCreated: 1494316321
+guid: 0cbf6bd66d304904fb389db4f7dade6c
+timeCreated: 1495689019
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_0"
-    21300002: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_1"
-    21300004: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_2"
-    21300006: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_3"
-    21300008: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_4"
-    21300010: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_5"
-    21300012: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_6"
-    21300014: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_7"
-    21300016: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_8"
+    21300000: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_0"
+    21300002: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_1"
+    21300004: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_2"
+    21300006: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_3"
+    21300008: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_4"
+    21300010: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_5"
+    21300012: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_6"
+    21300014: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_7"
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -95,122 +94,109 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_0"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 70
-        height: 70
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_1"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_1"
       rect:
         serializedVersion: 2
-        x: 70
+        x: 64
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_2"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_2"
       rect:
         serializedVersion: 2
-        x: 140
+        x: 128
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_3"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_3"
       rect:
         serializedVersion: 2
-        x: 210
+        x: 192
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_4"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_4"
       rect:
         serializedVersion: 2
-        x: 280
+        x: 256
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_5"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_5"
       rect:
         serializedVersion: 2
-        x: 350
+        x: 320
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_6"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_6"
       rect:
         serializedVersion: 2
-        x: 420
+        x: 384
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_7"
+      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_7"
       rect:
         serializedVersion: 2
-        x: 490
+        x: 448
         y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_8"
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

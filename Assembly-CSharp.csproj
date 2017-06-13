@@ -46,9 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\Buff.cs" />
+     <Compile Include="Assets\script\GameOverDirector.cs" />
      <Compile Include="Assets\script\GetItem.cs" />
+     <Compile Include="Assets\script\ItemGet.cs" />
      <Compile Include="Assets\script\Jump.cs" />
      <Compile Include="Assets\script\PlayerScript.cs" />
+     <Compile Include="Assets\script\TitleDirector.cs" />
+     <Compile Include="Assets\script\Trace.cs" />
      <Compile Include="Assets\script\playermove.cs" />
      <None Include="Assets\Sprite\ユニティちゃんドット絵素材（Co89）\Readme.txt" />
  <Reference Include="UnityEngine.UI">

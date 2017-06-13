@@ -17,27 +17,10 @@ public class Jump : MonoBehaviour {
 		anim = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
-
-//	void Update()
-//	{
-//		float gravity = 1;
-//		float time = 1.5f;
-
-//		rb.AddForce(Vector3.up * Mathf.Sqrt(2*jumpHeight*gravity));
-
-//		if (Input.GetKey("Space")) {
-//			// Spaceが押され続けてる！
-//			rb.AddForce(Vector3.up * Mathf.Sqrt(2*jumpHeight*gravity));
-//		}
-
-		
-//	}
 	void OnCollisionStay2D(Collision2D hit){
 		anim.SetBool ("Push_button", false); 
 		if (Input.GetKeyDown("space") && canJunp) {
 			// Spaceが押され続けてる！
-			Debug.Log(Vector3.up * jumpHeight);
 			anim.SetBool ("Push_button", true); 
 			rb.AddForce(Vector3.up * 1000.0f * jumpHeight);
 			canJunp = false;
